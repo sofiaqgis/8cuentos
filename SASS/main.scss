@@ -104,8 +104,9 @@
 @media screen and (max-width: 600px) {
   
         .boton1 {
-            font-size: 0.8em;
-            padding: 0.5rem;
+            font-size: 1.1em;
+            padding: 0.2rem;
+            font-family:glacialbold;
        }
        .vacio {
         width: 100%;
@@ -113,7 +114,8 @@
     }
     .contenedor {
         width: 100%;
-        height: 8000px;
+        height: 8700px;
+        padding: 0.1rem;
     }
     .p {
         
@@ -123,6 +125,7 @@
     .p1 {
        
         font-size: 1.5em;
+        margin-top: 2rem;
        
     }
     
