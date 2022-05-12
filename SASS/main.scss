@@ -8,6 +8,13 @@
     background-size: 100%;
     background-attachment: fixed;
 }
+.redes2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
 @font-face {
     font-family:glacial;
     src: url(../fuente/GRegular.otf) format("opentype");
@@ -31,30 +38,68 @@
     background-color: white;
     padding: 0.4rem;
 }
-.a {
+
+.col {
+        height: 100%;
+        padding: 0.6rem;
+       text-align: center;
+        transition: .1s ease-out all;
+        cursor: pointer;
+    
+    &:hover {
+        background: #ff99998e;
+        color: #ffffff;
+    }
+}
+
+.a2 {
+    text-decoration: none;
+    font-size: 1.1em;
+    color: white;
+    font-family:glacialbold;
+
+    &:hover {
+        color: #ffffff;
+    }
+}
+
+@keyframes youtube {
+    0% {
+        background-image: url(../imagenes/youtubeR.png);
+        background-repeat: no-repeat;
+        opacity: 0.3;
+    }
+    50% {
+        background-image: url(../imagenes/youtubeR.png);
+        background-repeat: no-repeat;
+        opacity: 1;
+    }
+    100% {
+        background-image: url(../imagenes/youtubeR.png);
+        background-repeat: no-repeat;
+        opacity: 0.7;
+    }
+}
+.a1 {
     cursor: pointer;
+    &:hover {
+        animation-duration: 0.5s;
+        animation-name: youtube;
+        animation-iteration-count: infinite;
+       
+        
+    }
 }
 
 .row {
-    padding: 1.5rem;
+    padding: 1rem;
 }
 .header {
     background-color: transparent;
     padding: 0.3rem;
     margin-top: 2rem;
     }
-.boton1 {
-    font-size: 1.1em;
-    padding: 0.3rem;
-    color: white;
-    font-family:glacialbold;
-    text-decoration: none;
 
-    &:hover {
-        color: #cc6666;
-        cursor: pointer;
-    }
-}
 
 .p {
     font-family:glacial;
@@ -145,12 +190,16 @@
         width: 100%;
     }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
   
-        .boton1 {
-            font-size: 1em;
+        .col {
+            max-width: 100%;
             padding: 0.2rem;
-            font-family:glacialbold;
+     
+       }
+       .a2 {
+        font-size: 1em;
+        font-family:glacialbold;
        }
        .vacio {
         width: 100%;

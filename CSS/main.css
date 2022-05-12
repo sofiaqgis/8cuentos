@@ -8,6 +8,12 @@
   background-size: 100%;
   background-attachment: fixed; }
 
+.redes2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; }
+
 @font-face {
   font-family: glacial;
   src: url(../fuente/GRegular.otf) format("opentype"); }
@@ -30,26 +36,52 @@
   background-color: white;
   padding: 0.4rem; }
 
-.a {
+.col {
+  height: 100%;
+  padding: 0.6rem;
+  text-align: center;
+  transition: .1s ease-out all;
   cursor: pointer; }
+  .col:hover {
+    background: #ff99998e;
+    color: #ffffff; }
+
+.a2 {
+  text-decoration: none;
+  font-size: 1.1em;
+  color: white;
+  font-family: glacialbold; }
+  .a2:hover {
+    color: #ffffff; }
+
+@keyframes youtube {
+  0% {
+    background-image: url(../imagenes/youtubeR.png);
+    background-repeat: no-repeat;
+    opacity: 0.3; }
+  50% {
+    background-image: url(../imagenes/youtubeR.png);
+    background-repeat: no-repeat;
+    opacity: 1; }
+  100% {
+    background-image: url(../imagenes/youtubeR.png);
+    background-repeat: no-repeat;
+    opacity: 0.7; } }
+
+.a1 {
+  cursor: pointer; }
+  .a1:hover {
+    animation-duration: 0.5s;
+    animation-name: youtube;
+    animation-iteration-count: infinite; }
 
 .row {
-  padding: 1.5rem; }
+  padding: 1rem; }
 
 .header {
   background-color: transparent;
   padding: 0.3rem;
   margin-top: 2rem; }
-
-.boton1 {
-  font-size: 1.1em;
-  padding: 0.3rem;
-  color: white;
-  font-family: glacialbold;
-  text-decoration: none; }
-  .boton1:hover {
-    color: #cc6666;
-    cursor: pointer; }
 
 .p {
   font-family: glacial;
@@ -134,10 +166,12 @@
   .embed-responsive-item {
     width: 100%; } }
 
-@media screen and (max-width: 600px) {
-  .boton1 {
+@media screen and (max-width: 500px) {
+  .col {
+    max-width: 100%;
+    padding: 0.2rem; }
+  .a2 {
     font-size: 1em;
-    padding: 0.2rem;
     font-family: glacialbold; }
   .vacio {
     width: 100%;
