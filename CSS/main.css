@@ -54,6 +54,19 @@
   .a2:hover {
     color: #ffffff; }
 
+.bot {
+  font-family: glacial;
+  text-decoration: none;
+  color: #252222;
+  font-size: 1em;
+  border: solid 2px #252222;
+  padding: 1rem; }
+  .bot:hover {
+    color: #252222; }
+
+.img3 {
+  margin: 0rem; }
+
 @keyframes youtube {
   0% {
     background-image: url(../imagenes/youtubeR.png);
@@ -76,7 +89,7 @@
     animation-iteration-count: infinite; }
 
 .row {
-  padding: 1rem; }
+  padding: 2rem; }
 
 .header {
   background-color: transparent;
@@ -164,11 +177,12 @@
     margin-top: none;
     padding: none; }
   .embed-responsive-item {
-    width: 100%; } }
+    width: 100%; }
+  .img3 {
+    margin: 3rem; } }
 
 @media screen and (max-width: 500px) {
   .col {
-    max-width: 100%;
     padding: 0.2rem; }
   .a2 {
     font-size: 1em;
@@ -201,4 +215,10 @@
     margin-top: none;
     padding: 0.3rem; }
   .embed-responsive-item {
-    width: 95%; } }
+    width: 95%; }
+  .img3 {
+    margin: 3rem; }
+  .bot {
+    padding: 1 rem; }
+  .btn {
+    margin: 1rem; } }
