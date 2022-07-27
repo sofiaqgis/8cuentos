@@ -3,7 +3,7 @@
   padding: 0px; }
 
 .body {
-  background-image: url(../imagenes/dibujo.jpg);
+  background-image: url(../imagenes/portada5.png);
   background-repeat: no-repeat;
   background-size: 100%;
   background-attachment: fixed; }
@@ -36,6 +36,24 @@
   background-color: white;
   padding: 0.4rem; }
 
+.rosa1 {
+  background-image: url(../imagenes/rosa2.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin: 0px; }
+
+.beige {
+  background-image: url(../imagenes/beige3.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin: 0px; }
+
+.azul1 {
+  background-image: url(../imagenes/celeste2.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin: 0px; }
+
 .col {
   height: 100%;
   padding: 0.6rem;
@@ -43,8 +61,7 @@
   transition: .1s ease-out all;
   cursor: pointer; }
   .col:hover {
-    background: #ff99998e;
-    color: #ffffff; }
+    background: #66b1af; }
 
 .a2 {
   text-decoration: none;
@@ -52,17 +69,25 @@
   color: white;
   font-family: glacialbold; }
   .a2:hover {
-    color: #ffffff; }
+    color: #ffff; }
 
 .bot {
   font-family: glacial;
   text-decoration: none;
   color: #252222;
-  font-size: 1em;
+  font-size: 1.2em;
   border: solid 2px #252222;
-  padding: 1rem; }
+  padding: 1rem;
+  cursor: pointer;
+  background-image: linear-gradient(to right, #252222 50%, white 50%);
+  background-size: 200%;
+  background-position: right;
+  background-repeat: no repeat;
+  transition: background-position .5s ease; }
   .bot:hover {
-    color: #252222; }
+    color: white;
+    background-position: left;
+    border: 2px solid #252222; }
 
 .img3 {
   margin: 0rem; }
@@ -110,6 +135,22 @@
   padding: 0.9rem;
   text-align: center; }
 
+.p10 {
+  font-family: glacialbold;
+  font-size: 2em;
+  color: #dc6954;
+  padding: 0.9rem;
+  text-align: center;
+  padding: 1rem; }
+
+.p9 {
+  font-family: glacialbold;
+  font-size: 2em;
+  color: #134e46;
+  padding: 0.9rem;
+  text-align: center;
+  padding: 1rem; }
+
 .p3 {
   font-family: glacial;
   font-size: 1.3em;
@@ -140,6 +181,22 @@
   padding: 0rem;
   text-align: justify;
   color: #252222; }
+
+.smal10 {
+  font-family: glacial;
+  font-size: 1.3em;
+  line-height: 2.2rem;
+  padding: 0rem;
+  text-align: justify;
+  color: #dc6954; }
+
+.smal9 {
+  font-family: glacial;
+  font-size: 1.3em;
+  line-height: 2.2rem;
+  padding: 0rem;
+  text-align: center;
+  color: #134e46; }
 
 .smal2 {
   font-family: glacialbold;
