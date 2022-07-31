@@ -36,14 +36,68 @@
   background-color: white;
   padding: 0.4rem; }
 
+  .field {
+    margin-bottom: 10px;
+  }
+  
+  .field label {
+    display: block;
+    font-size: 12px;
+    color: #777;
+  }
+
+  .field input {
+    display: block;
+    min-width: 250px;
+    line-height: 1.5;
+    font-size: 14px;
+  }
+  
+  input[type="submit"] {
+    display: block;
+    padding: 6px 30px;
+    font-size: 14px;
+    background-color: #4460AA;
+    color: #fff;
+    border: none
+  }
+
 .rosa1 {
-  background-image: url(../imagenes/rosa2.png);
+  background-image: url(../imagenes/rosaclaro.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin: 0px; }
+
+.verdePrensa {
+    background-image: url(../imagenes/celestefondo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0px;
+
+}
+
+.foto {
+  background-image: url(../imagenes/fotoequipo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 35rem;
+    margin: 0px;
+}
+
+.rosa4 {
+  background-image: url(../imagenes/rosaclaro2.png);
   background-repeat: no-repeat;
   background-size: 100%;
   margin: 0px; }
 
 .beige {
-  background-image: url(../imagenes/beige3.png);
+  background-image: url(../imagenes/beige2.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin: 0px; }
+
+.rosafinal {
+  background-image: url(../imagenes/rosafinal.png);
   background-repeat: no-repeat;
   background-size: 100%;
   margin: 0px; }
@@ -74,12 +128,12 @@
 .bot {
   font-family: glacial;
   text-decoration: none;
-  color: #252222;
+  color: #134e46;
   font-size: 1.2em;
-  border: solid 2px #252222;
+  border: solid 2px #134e46;
   padding: 1rem;
   cursor: pointer;
-  background-image: linear-gradient(to right, #252222 50%, white 50%);
+  background-image: linear-gradient(to right, #134e46 50%, white 50%);
   background-size: 200%;
   background-position: right;
   background-repeat: no repeat;
@@ -87,7 +141,7 @@
   .bot:hover {
     color: white;
     background-position: left;
-    border: 2px solid #252222; }
+    border: 2px solid #134e46; }
 
 .img3 {
   margin: 0rem; }
@@ -135,6 +189,13 @@
   padding: 0.9rem;
   text-align: center; }
 
+.p1a {
+  font-family: glacialbold;
+  font-size: 2em;
+  color: #8a6465;
+  padding: 0.9rem;
+  text-align: center; }
+
 .p10 {
   font-family: glacialbold;
   font-size: 2em;
@@ -159,6 +220,14 @@
   text-align: center;
   color: #272424; }
 
+.p33 {
+  font-family: glacial;
+  font-size: 1.3em;
+  line-height: 2.2rem;
+  padding: 0rem;
+  text-align: center;
+  color: #10626f; }
+
 .p4 {
   font-family: glacialbold;
   font-size: 1.2em;
@@ -167,10 +236,25 @@
   text-align: center;
   color: #252222; }
 
+.p44 {
+  font-family: glacialbold;
+  font-size: 1.2em;
+  line-height: 0rem;
+  padding: 0rem;
+  text-align: center;
+  color: #10626f; }
+
 .p2 {
   font-family: glacialbold;
   font-size: 2em;
   color: #272424;
+  padding: 0.9rem;
+  text-align: center; }
+
+.p22 {
+  font-family: glacialbold;
+  font-size: 2em;
+  color: #10626f;
   padding: 0.9rem;
   text-align: center; }
 
@@ -195,7 +279,7 @@
   font-size: 1.3em;
   line-height: 2.2rem;
   padding: 0rem;
-  text-align: center;
+  text-align: justify;
   color: #134e46; }
 
 .smal2 {
@@ -209,10 +293,12 @@
 .list-group-item {
   font-family: glacial;
   font-size: 1.2em;
-  line-height: 2.5rem;
-  padding: 1.5rem;
-  text-align: justify;
-  color: #252222; }
+  line-height: 1.5rem;
+  margin-bottom: 1rem;
+  text-align: justify; }
+
+.lista2 {
+  color: #8a6465; }
 
 .smal3 {
   font-family: glacialitalic;
@@ -236,17 +322,72 @@
   .embed-responsive-item {
     width: 100%; }
   .img3 {
-    margin: 3rem; } }
+    margin: 3rem; }
+  .rosa1 {
+      background-size: cover; }
+  .verdePrensa {
+      background-size: cover;
+    }
+  .foto {
+      background-size: 100%;
+    
+    }
+  .rosa4 {
+      background-size: cover; }
+  .rosafinal {
+      background-size: cover; }
+  .azul1 {
+      background-size: cover; }
+  .beige {
+      background-size: cover; }
+  
+  }
+
+  @media screen and (max-width: 1520px) {
+    .contenedor {
+      width: 100%;
+      height: 100%;
+      background-color: white;
+      padding: 0.4rem; }
+    .vacio {
+      width: 100%;
+      height: 650px;
+      margin-top: none;
+      padding: none; }
+    .embed-responsive-item {
+      width: 100%; }
+    .img3 {
+      margin: 3rem; }
+    .rosa1 {
+        background-size: cover; }
+    .verdePrensa {
+        background-size: cover;
+      }
+    .foto {
+        background-size: 100%;
+      
+      }
+    .rosa4 {
+        background-size: cover; }
+    .rosafinal {
+        background-size: cover; }
+    .azul1 {
+        background-size: cover; }
+    .beige {
+        background-size: cover; }
+    
+    }
 
 @media screen and (max-width: 500px) {
   .col {
     padding: 0.2rem; }
   .a2 {
-    font-size: 1em;
-    font-family: glacialbold; }
+    visibility: hidden; }
+  .a {
+    visibility: hidden; }
   .vacio {
     width: 100%;
-    height: 250px;
+    height: 150px;
     margin-top: none;
     padding: none; }
   .contenedor {
@@ -278,4 +419,39 @@
   .bot {
     padding: 1 rem; }
   .btn {
-    margin: 1rem; } }
+    margin: 1rem; }
+  .rosa1 {
+    background-size: cover; }
+  .verdePrensa {
+    background-size: cover;
+  }
+  .foto {
+    background-size: 100%;
+    height: 10rem;
+  }
+  .rosa4 {
+    background-size: cover; }
+  .rosafinal {
+    background-size: cover; }
+  .azul1 {
+    background-size: cover; }
+  .beige {
+    background-size: cover; }
+  .p1a {
+    font-size: 1.5em; }
+  .p10 {
+    font-size: 1.5em; }
+  .smal10 {
+    font-size: 1em; }
+  .p33 {
+    font-size: 0.9em; }
+  .p44 {
+    font-size: 0.9em; }
+  .p22 {
+    font-size: 1.5em; }
+  .smal9 {
+    font-size: 1em; }
+  .p9 {
+    font-size: 1.5em; }
+  .uno {
+    width: 24px; } }

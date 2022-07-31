@@ -41,7 +41,23 @@
 }
 
 .rosa1 {
-    background-image: url(../imagenes/rosa2.png);
+    background-image: url(../imagenes/rosaclaro.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0px;
+
+}
+
+.verdePrensa {
+        background-image: url(../imagenes/verdePrensa.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        margin: 0px;
+    
+}
+
+.rosa4 {
+    background-image: url(../imagenes/rosaclaro2.png);
     background-repeat: no-repeat;
     background-size: 100%;
     margin: 0px;
@@ -49,11 +65,18 @@
 }
 
 .beige {
-    background-image: url(../imagenes/beige3.png);
+    background-image: url(../imagenes/beige2.png);
     background-repeat: no-repeat;
     background-size: 100%;
     margin: 0px;
 
+}
+
+.rosafinal {
+    background-image: url(../imagenes/rosafinal.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0px;
 }
 
 .azul1 {
@@ -174,6 +197,14 @@
     text-align: center;
 }
 
+.p1a {
+    font-family:glacialbold;
+    font-size: 2em;
+    color: #8a6465 ;
+    padding: 0.9rem;
+    text-align: center;
+}
+
 .p10 {
     font-family:glacialbold;
     font-size: 2em;
@@ -200,6 +231,17 @@
     text-align: center;
     color: rgb(39, 36, 36);
 }
+
+.p33 {
+    font-family:glacial;
+    font-size: 1.3em;
+    line-height: 2.2rem;
+    padding: 0rem;
+    text-align: center;
+    color: #10626f;
+}
+
+
 .p4 {
     font-family:glacialbold;
     font-size: 1.2em;
@@ -209,10 +251,27 @@
     color: rgb(37, 34, 34);
 }
 
+.p44 {
+    font-family:glacialbold;
+    font-size: 1.2em;
+    line-height: 0rem;
+    padding: 0rem;
+    text-align: center;
+    color: #10626f;
+}
+
 .p2 {
     font-family:glacialbold;
     font-size: 2em;
     color: rgb(39, 36, 36);
+    padding: 0.9rem;
+    text-align: center;
+}
+
+.p22 {
+    font-family:glacialbold;
+    font-size: 2em;
+    color: #10626f;
     padding: 0.9rem;
     text-align: center;
 }
@@ -240,7 +299,7 @@
     font-size: 1.3em;
     line-height: 2.2rem;
     padding: 0rem;
-    text-align: center;
+    text-align: justify;
     color: #134e46;
 }
 
@@ -252,14 +311,21 @@
     text-align: center;
     color: rgb(37, 34, 34);
 }
+
+
 .list-group-item {
     font-family:glacial;
     font-size: 1.2em;
-    line-height: 2.5rem;
-    padding: 1.5rem;
+    line-height: 1.8rem;
     text-align: justify;
-    color: rgb(37, 34, 34);
+
 }
+
+.lista2 {
+    color: #8a6465;
+}
+
+
 .smal3 {
     font-family:glacialitalic;
     font-size: 0.9em;
@@ -299,12 +365,15 @@
      
        }
        .a2 {
-        font-size: 1em;
-        font-family:glacialbold;
+        visibility: hidden;
        }
+       .a { 
+        visibility: hidden;
+       }
+
        .vacio {
         width: 100%;
-        height: 250px;
+        height: 150px;
         margin-top: none;
         padding: none;
     }
@@ -369,5 +438,73 @@
 .btn {
     margin: 1rem;
 }
+
+.rosa1 {
+    background-size: cover;
+    
+    
+   
+}
+
+.rosa4 {
+    background-size:  cover;
+     
+       
+}
+
+.rosafinal {
+    background-size:  cover;
+   
+   
+}
+
+.azul1 {
+    background-size: cover;
+    
+   
+}
+
+.beige {
+    background-size: cover;
+   
+   
+}
+
+.p1a {
+font-size: 1.5em;
+}
+
+.p10 {
+    font-size: 1.5em;
+}
+
+.smal10 {
+    font-size: 1em;
+}
+
+.p33 {
+font-size: 0.9em;
+}
+
+.p44 {
+font-size: 0.9em;
+}
+
+.p22 {
+ font-size: 1.5em;
+}
+
+.smal9 {
+    font-size: 1em ;
+}
+
+.p9 {
+    font-size: 1.5em;
+}
+
+.uno {
+    width: 24px;
+}
+
 }
 
