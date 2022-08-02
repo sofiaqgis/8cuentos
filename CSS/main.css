@@ -69,7 +69,7 @@
   margin: 0px; }
 
 .verdePrensa {
-    background-image: url(../imagenes/celestefondo.png);
+    background-image: url(../imagenes/aguaFondo3.png);
     background-repeat: no-repeat;
     background-size: 100%;
     margin: 0px;
@@ -77,7 +77,7 @@
 }
 
 .foto {
-  background-image: url(../imagenes/fotoequipo.png);
+  background-image: url(../imagenes/rodaje.png);
     background-repeat: no-repeat;
     background-size: 100%;
     height: 35rem;
@@ -91,7 +91,7 @@
   margin: 0px; }
 
 .beige {
-  background-image: url(../imagenes/beige2.png);
+  background-image: url(../imagenes/beige.png);
   background-repeat: no-repeat;
   background-size: 100%;
   margin: 0px; }
@@ -146,26 +146,22 @@
 .img3 {
   margin: 0rem; }
 
-@keyframes youtube {
-  0% {
-    background-image: url(../imagenes/youtubeR.png);
-    background-repeat: no-repeat;
-    opacity: 0.3; }
-  50% {
-    background-image: url(../imagenes/youtubeR.png);
-    background-repeat: no-repeat;
-    opacity: 1; }
-  100% {
-    background-image: url(../imagenes/youtubeR.png);
-    background-repeat: no-repeat;
-    opacity: 0.7; } }
-
 .a1 {
   cursor: pointer; }
-  .a1:hover {
-    animation-duration: 0.5s;
-    animation-name: youtube;
-    animation-iteration-count: infinite; }
+
+.boton {
+  background-color: #10626f;
+  color: white;
+  border: none;
+  width: 6rem;
+  height: 2.6rem;
+
+}
+
+.form-control {
+padding: 4rem;
+}
+
 
 .row {
   padding: 2rem; }
@@ -272,7 +268,7 @@
   line-height: 2.2rem;
   padding: 0rem;
   text-align: justify;
-  color: #dc6954; }
+  color: #8a6465; }
 
 .smal9 {
   font-family: glacial;
@@ -379,6 +375,12 @@
     }
 
 @media screen and (max-width: 500px) {
+  .body {
+    background-image: url(../imagenes/mobile.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+   
+  }
   .col {
     padding: 0.2rem; }
   .a2 {
@@ -387,7 +389,7 @@
     visibility: hidden; }
   .vacio {
     width: 100%;
-    height: 150px;
+    height: 700px;
     margin-top: none;
     padding: none; }
   .contenedor {
