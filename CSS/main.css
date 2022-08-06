@@ -51,7 +51,7 @@
 }
 
 .foto {
-  background-image: url(../imagenes/rodaje.png);
+  background-image: url(../imagenes/fotoarancha.png);
     background-repeat: no-repeat;
     background-size: 100%;
     height: 35rem;
@@ -294,7 +294,7 @@ padding: 4rem;
     font-size: 1.3em;
     line-height: 1.9rem;
     padding: 0rem;
-    text-align: center;
+    text-align: start;
     color: #004964; }
 
 .alto {
@@ -306,7 +306,7 @@ height: 0.6rem;
       font-size: 1.3em;
       line-height: 1.9rem;
       padding: 0rem;
-      text-align: center;
+      text-align: start;
       color: #004964; }
 
 .smal999 {
@@ -461,7 +461,7 @@ height: 0.6rem;
     margin: 1rem; }
   .rosa1 {
     background-size: cover; 
-    background-image: url(../imagenes/beige.png);
+    background-image: url(../imagenes/aguaFondo3.png);
   
   }
   .verdePrensa {
@@ -490,12 +490,21 @@ height: 0.6rem;
 
   .smal9c {
     color: #10626f;
+    text-transform: uppercase;
+    text-align: start; 
+  
   }
+
+
   .smal9d {
     color: #10626f;
+    text-align: justify;
+ 
   }
   .smal9e {
     color: #10626f;
+    text-align: justify;
+
   }
   
   .p33 {
@@ -527,6 +536,7 @@ height: 0.6rem;
 
 .smal9b {
   color: #10626f;
+  text-transform: uppercase;
 }
 .p1aa {
     font-size: 1.5em;
@@ -557,5 +567,6 @@ height: 0.6rem;
 .uno {
     margin-bottom: 0.9rem;
   }
-  
+
+
   }
