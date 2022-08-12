@@ -25,11 +25,13 @@
 .vacio {
   width: 100%;
   height: 39rem;
+
    }
 
 .contenedor {
   width: 100%;
   height: 100%;
+ 
   
  }
 
@@ -47,7 +49,7 @@
 }
 
 .rosa1 {
-  background-image: url(../imagenes/rosaclaro.png);
+  background-image: url(../imagenes/colibri2.png);
   background-repeat: no-repeat;
   background-size: 100%;
  }
@@ -62,12 +64,12 @@
 .foto {
   background-image: url(../imagenes/fotoarancha.png);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     height: 35rem;
 }
 
 .rosa4 {
-  background-image: url(../imagenes/rosaclaro2.png);
+  background-image: url(../imagenes/rosafinal3.png);
   background-repeat: no-repeat;
   background-size: 100%;
   }
@@ -79,7 +81,7 @@
   margin: 0px; }
 
 .rosafinal {
-  background-image: url(../imagenes/rosafinal.png);
+  background-image: url(../imagenes/rosafinal3.png);
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -109,11 +111,11 @@
   font-family: glacial;
   text-decoration: none;
   color: #004964;
-  font-size: 1.2em;
+  font-size: 1.1em;
   padding: 1rem;
   cursor: pointer;
 
-  background-color: #fbdce6;
+  background-color: #f8dfe4;
  }
   .bot:hover {
     color: #004964;
@@ -179,68 +181,56 @@ padding: 4rem;
 
 .smal10 {
   font-family: glacial;
-  font-size: 1.3em;
-
-  padding: 1rem;
+  font-size: 1em;
+  line-height: 2.1rem;
   text-transform: uppercase;
   text-align: justify;
-  color: #8a6465; }
+  color: #6d4244; }
 
 .smal10a {
     font-family: glacial;
-    font-size: 1.3em;
-
-    padding: 0rem;
+    font-size: 1em;
+    line-height: 2.1rem;
     text-transform: uppercase;
     text-align: justify;
-    color: #8a6465; }
+    color: #6d4244; }
 
 
 .smal9c {
     font-family: glacial;
-    font-size: 1.6em;
+    font-size: 1.1em;
     text-transform: uppercase;
+    line-height: 0.7rem;
     text-align: center;
     color: #134e46; }
 
 .smal9d {
       font-family: glacialitalic;
-      font-size: 1.3em;
-      line-height: 1.9rem;
-      padding: 0rem;
+      font-size: 1.1em;
+      line-height: 0.7rem;
       text-align: center;
       color: #134e46; }
 
 .smal9e {
         font-family: glacial;
-        font-size: 1.3em;
-        line-height: 1.9rem;
-        padding: 0rem;
+        font-size: 1.1em;
+        line-height: 0.7rem;
         text-align: center;
         color: #134e46; }
 
 .smal99 {
     font-family: glacial;
-    font-size: 1.3em;
- 
-    text-transform: uppercase;
+    font-size: 1em;
+  text-transform: uppercase;
+  text-align: justify;
     color: #004964;
    }
 
-.alto {
-  height: 1.2rem;
-}
-
-.cuadro {
-  padding: 2rem;
-  align-items: center;
- 
-}
 
 .p9 {
   font-family: glacialbold;
   font-size: 2em;
-  color: #134e46;
+  color: #2d675f;
   padding: 0.9rem;
   text-align: center;
   padding: 1rem; }
@@ -248,7 +238,7 @@ padding: 4rem;
 .p99 {
   font-family: glacialbold;
   font-size: 2em;
-  color: #0b465b;
+  color: #226f8b;
   padding: 0.9rem;
   text-align: center;
   padding: 1rem; }
@@ -256,22 +246,21 @@ padding: 4rem;
 .smal999 {
       font-family: glacial;
       text-transform: uppercase;
-      font-size: 1.3em;
-      line-height: 1.9rem;
-      padding: 0rem;
+      font-size: 1em;
       text-align: center;
-      color: #004964; }
+      color: #004964;     
+    }
 
 
 .list-group-item {
-  font-family: glacial;
-  font-size: 1.2em;
-  line-height: 1.5rem;
+  line-height: 1rem;
   margin-bottom: 1rem;
   text-align: justify; }
 
 .lista2 {
-  color: #8a6465;
+  color: #6d4244;
+  font-family: glacial;
+  font-size: .9em;
 text-transform: uppercase; }
 
 
@@ -281,9 +270,9 @@ text-transform: uppercase; }
    height: 100%;
    }
 
-  .vacio {
-    width: 100%;
-    height: 40rem;
+  .body {
+    background-size: cover;
+    background-image: url(../imagenes/portadafinal.png);
   }
   .embed-responsive-item {
     width: 100%; }
@@ -310,18 +299,26 @@ text-transform: uppercase; }
   
   }
 
+  @media screen and (max-width: 1420px){
 
+    .body {
+      background-size: 100%;
+      background-image: url(../imagenes/portada2.png);
+     }
 
-  @media screen and (max-width: 1320px) {
+  }
+
+  @media screen and (max-width: 1340px){
     .contenedor {
       width: 100%;
       height: 100%;
+    
    }
-    .vacio {
-      width: 100%;
-      height: 34rem;
-  }
 
+   .body {
+    background-size: 100%;
+    background-image: url(../imagenes/portada3.png);
+   }
 
     .embed-responsive-item {
       width: 100%; }
@@ -332,10 +329,9 @@ text-transform: uppercase; }
     .verdePrensa {
         background-size: cover;
       }
-    .foto {
-        background-size: 100%;
-      
-      }
+ .foto {
+  background-size: cover;
+ }
     .rosa4 {
         background-size: cover; }
     .rosafinal {
@@ -346,8 +342,18 @@ text-transform: uppercase; }
     .beige {
         background-size: cover;
       }
+
     
     }
+
+  @media screen and (max-width: 920px){
+      .body {
+        background-size: 100%;
+        background-image: url(../imagenes/portada5.png); }
+  
+  
+    }
+  
 
 @media screen and (max-width: 500px) {
   .body {
@@ -369,15 +375,17 @@ text-transform: uppercase; }
     height: 45rem;
     }
 
-  .list-group-item {
-    font-size: 1em; }
+  .lista2 {
+    font-size: 0.7em; }
  
   .embed-responsive-item {
     width: 95%; }
   .img3 {
     margin: 3rem; }
   .bot {
-    padding: 1rem; }
+    padding: 1rem; 
+    font-size: 0.7em;
+  }
   .btn {
     margin: 1rem; }
   .rosa1 {
@@ -405,8 +413,10 @@ text-transform: uppercase; }
 
   .smal9c {
     color: #10626f;
-    text-transform: uppercase;
-    text-align: start; 
+    font-size: .9em;
+    line-height: .9rem;
+    text-align: left;
+    
   
   }
 
@@ -414,43 +424,48 @@ text-transform: uppercase; }
   .smal9d {
     color: #10626f;
     text-align: justify;
+    font-size: 0.9em;
+    line-height: .9rem;
  
   }
   .smal9e {
     color: #10626f;
     text-align: justify;
+    font-size: 0.9em;
+    line-height: .9rem;
 
   }
   
   .p33 {
-    font-size: 0.9em; }
+    font-size: 0.6em; }
   .p44 {
-    font-size: 0.9em; }
+    font-size: 0.6em; }
   .p22 {
     font-size: 1.5em; }
 
 
   .smal10 {
     color: #10626f;
+    font-size: 0.8em;
     
   }
 
 .smal10a {
    padding: 1rem;
+   font-size: 0.8em;
     
 }
 
 .smal99 {
   color: #10626f;
+  font-size: 0.8em;
 } 
 
 .smal999 {
   color: #10626f;
+  font-size: 0.8em;
 } 
 
-.p99 {
-  color: #10626f;
-}
 
 .p1aa {
     font-size: 1.5em;
@@ -459,7 +474,13 @@ text-transform: uppercase; }
   
 .p1a {
       font-size: 1.5em;
-      color: #10626f; }
+      color: #226f8b; }
+
+.p9 {
+  font-size: 1.5em;
+  color: #2d675f;
+}
+
 .p99 {
         font-size: 1.5em;
        }
@@ -468,15 +489,14 @@ text-transform: uppercase; }
     margin-bottom: 0.9rem;
    }
   
-.alto {
-      height: auto;
-      }
+
 .img6 {
         margin: .9rem;
       }
 
 .form4 {
     margin-left: 1.3rem;
+    font-size: 0.7em;
   }
 
 }
