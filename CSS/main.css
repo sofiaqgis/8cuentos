@@ -35,6 +35,7 @@
   
  }
 
+
 .row {
   padding: 1rem;
 }
@@ -271,7 +272,7 @@ text-transform: uppercase; }
    }
 
   .body {
-    background-size: cover;
+    background-size: 100%;
     background-image: url(../imagenes/portadafinal.png);
   }
   .embed-responsive-item {
@@ -350,7 +351,15 @@ text-transform: uppercase; }
       .body {
         background-size: 100%;
         background-image: url(../imagenes/portada5.png); }
+        
+        .img6 {
+          margin: 5.5rem;
   
+        }
+
+        .form4 {
+            margin: 1rem;
+        }
   
     }
   
