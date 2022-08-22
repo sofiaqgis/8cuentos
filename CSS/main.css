@@ -35,9 +35,22 @@
   
  }
 
+.form3 {
+  height: 2.8rem;
+}
 
-.row {
-  padding: 1rem;
+.form4 {
+  height: 8rem;
+}
+
+
+.lista2:hover {
+  color: #10626f;
+  text-shadow: #10626f .2px .2px .2px ;
+}
+
+.banda {
+  text-decoration: none;
 }
 
 .boton {
@@ -56,7 +69,7 @@
  }
 
 .verdePrensa {
-    background-image: url(../imagenes/aguaFondo2.png);
+    background-image: url(../imagenes/verde4.png);
     background-repeat: no-repeat;
     background-size: 100%;
 
@@ -98,15 +111,13 @@
 
 .a2 {
   text-decoration: none;
-  font-size: 1.1em;
+  font-size: 1em;
   color: white;
   font-family: glacial; }
   .a2:hover {
     color: #ffff; }
 
-.padding {
-  padding: 0.6rem;
-}
+
 
 .bot {
   font-family: glacial;
@@ -124,12 +135,6 @@
 
 .img3 {
   margin: 0rem; }
-
-
-.form-control {
-padding: 4rem;
-}
-
 
 .header {
   background-color: transparent;
@@ -153,7 +158,7 @@ padding: 4rem;
 
 .p33 {
   font-family: glacial;
-  font-size: 1.3em;
+  font-size: 1.1em;
   line-height: 2.2rem;
   padding: 0rem;
   text-align: center;
@@ -174,7 +179,7 @@ padding: 4rem;
 
 .p44 {
     font-family: glacialbold;
-    font-size: 1.2em;
+    font-size: 1.1em;
     line-height: 0rem;
     padding: 0rem;
     text-align: center;
@@ -191,32 +196,32 @@ padding: 4rem;
 .smal10a {
     font-family: glacial;
     font-size: 1em;
-    line-height: 2.1rem;
+    line-height: 2rem;
     text-transform: uppercase;
     text-align: justify;
     color: #6d4244; }
 
+.padding {
+  padding: 1.5rem;
+}
+
+.padding2 {
+  padding: 0.5rem;
+}
 
 .smal9c {
     font-family: glacial;
-    font-size: 1.1em;
+    font-size: 1em;
     text-transform: uppercase;
-    line-height: 0.7rem;
-    text-align: center;
+    text-align: justify;
     color: #134e46; }
 
-.smal9d {
-      font-family: glacialitalic;
-      font-size: 1.1em;
-      line-height: 0.7rem;
-      text-align: center;
-      color: #134e46; }
 
 .smal9e {
         font-family: glacial;
-        font-size: 1.1em;
-        line-height: 0.7rem;
-        text-align: center;
+        font-size: 1em;
+        text-align: justify;
+        text-transform: uppercase;
         color: #134e46; }
 
 .smal99 {
@@ -285,14 +290,12 @@ text-transform: uppercase; }
       background-size: cover;
     }
   .foto {
-      background-size: 100%;
+      background-size: cover;
     
     }
   .rosa4 {
       background-size: cover; }
   .rosafinal {
-      background-size: cover; }
-  .azul1 {
       background-size: cover; }
   .beige {
       background-size: cover;
@@ -306,6 +309,22 @@ text-transform: uppercase; }
       background-size: 100%;
       background-image: url(../imagenes/portada2.png);
      }
+     .rosa1 {
+      background-size: cover; }
+  .verdePrensa {
+      background-size: cover;
+    }
+  .foto {
+      background-size: cover;
+    
+    }
+  .rosa4 {
+      background-size: cover; }
+  .rosafinal {
+      background-size: cover; }
+  .beige {
+      background-size: cover;
+      width: auto; }
 
   }
 
@@ -344,7 +363,9 @@ text-transform: uppercase; }
         background-size: cover;
       }
 
-    
+      .sobre {
+        visibility: visible;
+      }
     }
 
   @media screen and (max-width: 920px){
@@ -353,12 +374,45 @@ text-transform: uppercase; }
         background-image: url(../imagenes/portada5.png); }
         
         .img6 {
-          margin: 5.5rem;
+          margin: 4rem;
+          width: 100%;
+          align-items: center;
+          justify-content: center;
   
         }
 
-        .form4 {
+        .sobre {
+          visibility: hidden;
+        }
+
+        .rosa1 {
+          background-size: cover; }
+      .verdePrensa {
+          background-size: cover;
+        }
+      .foto {
+          background-size: cover;
+        
+        }
+      .rosa4 {
+          background-size: cover; }
+      .rosafinal {
+          background-size: cover; }
+      .beige {
+          background-size: cover;
+          width: auto; }
+
+      .boton {
             margin: 1rem;
+        
+          }
+        
+        .form3 {
+        margin: 1rem;
+        }
+        
+        .form4 {
+        margin: 1rem;
         }
   
     }
@@ -399,7 +453,7 @@ text-transform: uppercase; }
     margin: 1rem; }
   .rosa1 {
     background-size: cover; 
-    background-image: url(../imagenes/aguaFondo2.png);
+    background-image: url(../imagenes/verde4.png);
   }
   .verdePrensa {
     background-size: cover;
@@ -422,35 +476,29 @@ text-transform: uppercase; }
 
   .smal9c {
     color: #10626f;
-    font-size: .9em;
-    line-height: .9rem;
+    font-size: .8em;
+    line-height: 1.2rem;
     text-align: left;
     
   
   }
 
-
-  .smal9d {
-    color: #10626f;
-    text-align: justify;
-    font-size: 0.9em;
-    line-height: .9rem;
- 
-  }
   .smal9e {
     color: #10626f;
     text-align: justify;
-    font-size: 0.9em;
-    line-height: .9rem;
+    font-size: .8em;
+    line-height: 1.2rem;
 
   }
-  
+
+
   .p33 {
-    font-size: 0.6em; }
+    font-size: 0.7em; }
   .p44 {
-    font-size: 0.6em; }
+    font-size: 0.7em; }
   .p22 {
-    font-size: 1.5em; }
+    font-size: 1.5em;
+   }
 
 
   .smal10 {
@@ -460,7 +508,6 @@ text-transform: uppercase; }
   }
 
 .smal10a {
-   padding: 1rem;
    font-size: 0.8em;
     
 }
@@ -498,15 +545,35 @@ text-transform: uppercase; }
     margin-bottom: 0.9rem;
    }
   
+   .img6 {
+    margin: .8rem;
+    width: 100%;
+  }
 
-.img6 {
-        margin: .9rem;
-      }
+.boton {
+    margin: 1rem;
+    font-size: 0.8em;
+  }
+
+.form3 {
+margin: 1rem;
+}
 
 .form4 {
-    margin-left: 1.3rem;
-    font-size: 0.7em;
-  }
+margin: 1rem;
+}
+
+.sobre {
+  visibility: visible;
+}
+
+.form3::placeholder {
+  font-size: .8rem;
+}
+
+.form4::placeholder {
+  font-size: .8rem;
+}
 
 }
 
