@@ -14,10 +14,10 @@
 <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <script src="sweetalert2.min.js"></script>
 <link rel="stylesheet" href="sweetalert2.min.css">
-
-
-
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+<script src="./js/formulario.js"></script>
   </head>  
+
   <body class="body">
       <div class="vacio">
         <div class="header">
@@ -119,6 +119,18 @@
           <div class="row">
             <p class="smal9c">18° Santiago de Chile IFF (SANFIC) </p> <p class="smal9e">Selección oficial Directoras en foco, 2022, Chile.</p>
           </div>
+          <div class="row">
+            <p class="smal9c">18° FIC Monterrey - Selección oficial.</p>
+          </div>
+          <div class="row">
+            <p class="smal9c">33° Espoo Ciné International Film Festival - Selección oficial.</p>
+          </div>
+          <div class="row">
+            <p class="smal9c">41° Vancouver International Film Festival - Selección oficial.</p>
+          </div>
+          <div class="row">
+            <p class="smal9c">14° Seattle Latino Film Festival - Selección oficial.</p>
+          </div>
         </div>
         <div class="col-md-3"></div>
       </div>
@@ -126,7 +138,7 @@
      
     
       <div class="row padding verdePrensa">
-        <div class="row justify-content-center">
+        <div class="row justify-content-center align-items-center">
         <div class="col-md-7">
 
           <div class="m-0 row padding justify-content-center">
@@ -184,40 +196,14 @@
 
         </div>
         </div>
-      <div class="row padding">
+      <div class="row padding align-items-center justify-content-center">
         <div class="col-md-5">
       
           <div class="row padding">
-            <div id="carouselExampleDark2" class="carousel carousel-dark slide" data-bs-ride="carousel">
-              <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleDark2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleDark2" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleDark2" data-bs-slide-to="2" aria-label="Slide 3"></button>
-              </div>
-              <div class="carousel-inner">
-                <div class="carousel-item active" data-bs-interval="10000">
-                  <img src="./imagenes/carrusel1.png" class="d-block w-100" alt="carrusel1">
+     
+                  <img src="./imagenes/carrusel2.png" class="img-fluid" alt="carrusel2">
                  
-                </div>
-                <div class="carousel-item" data-bs-interval="2000">
-                  <img src="./imagenes/carrusel2.png" class="d-block w-100" alt="carrusel2">
-                 
-                </div>
-                <div class="carousel-item">
-                  <img src="./imagenes/carrusel3.png" class="d-block w-100" alt="carrusel3">
-                
-                </div>
-              </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark2" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark2" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-              </button>
-            </div>
-            </div>
+          </div>
 
         </div>
         <div class="col-md-7">
@@ -235,6 +221,7 @@
       </div>
         </div>
       </div>
+      
 
       <div class="row padding rosa4">
         <div class="col-md-3"></div>
@@ -246,57 +233,60 @@
         </div>
         <div class="col-md-3"></div>
         </div>
+
       <div class="row padding verdePrensa">
       <p class="p99" id="prensa">PRENSA</p>
-      <div class="row padding align-items-center">
-        <div class="col-md-3"></div>
-        <div class="col-md-3">
+
+      <div class="row padding row-cols-auto justify-content-center align-items-center">
+        <div class="col">
           <button type="button" class="btn"><a class="bot" href="https://brecha.com.uy/mi-guerra-y-mi-paz/">Nota completa</a></button>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-1"></div>
+        <div class="col">
           <img src="./imagenes/nota1.png" width="270px" class="img3" alt="nota1">
         </div>
-       
       </div>
-      <div class="row padding align-items-center">
-        <div class="col-md-3"></div>
-        <div class="col-md-4">
+
+      <div class="row padding row-cols-auto justify-content-center align-items-center">
+        <div class="col">
           <img src="./imagenes/nota2.jpg" width="270px" class="img3" alt="nota1">
         </div>
-        <div class="col-md-3">
+        <div class="col-md-1"></div>
+        <div class="col">
           <button type="button" class="btn"><a class="bot" href="http://cineramaplus.com.ar/critica-ocho-cuentos-sobre-mi-hipoacusia-2021-de-charo-mato/">Nota completa</a></button>
           </div>
-       
       </div>
-          <div class="row padding align-items-center">
-            <div class="col-md-3"></div>
-            <div class="col-md-3">
+
+          <div class="row padding row-cols-auto justify-content-center align-items-center">
+            <div class="col">
               <button type="button" class="btn"><a class="bot" href="https://www.pagina12.com.ar/472516-una-directora-de-cine-autora-de-un-documental-autorreferenci">Nota completa</a></button>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-1"></div>
+            <div class="col">
               <img src="./imagenes/nota3.png" width="270px" class="img3" alt="nota1">
             </div>
-          
           </div>
-          <div class="row padding align-items-center">
-            <div class="col-md-3"></div>
-            <div class="col-md-4">
+
+          <div class="row padding row-cols-auto justify-content-center align-items-center">
+            <div class="col">
               <img src="./imagenes/nota4.png" width="270px" class="img3" alt="nota1">
             </div>
-            <div class="col-md-3">
+            <div class="col-md-1"></div>
+            <div class="col">
               <button type="button" class="btn"><a class="bot" href="https://lavidaenuncine.wordpress.com/2022/08/03/charo-mato-cada-vez-que-miro-la-pelicula-siento-que-es-un-reencuentro-con-mi-madre/">Nota completa</a></button>
               </div>
-              <div class="col-md-2"></div>
           </div>
-          <div class="row padding align-items-center">
-            <div class="col-md-3"></div>
-            <div class="col-md-3">
+
+          <div class="row padding row-cols-auto justify-content-center align-items-center">
+            <div class="col">
               <button type="button" class="btn"><a class="bot" href="https://gpsaudiovisual.com/2022/05/23/charo-mato-e-igor-galuk-ganadores-de-construir-cine-la-tematica-del-festival-esta-en-sintonia-con-lo-que-hacemos/">Nota completa</a></button>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-1"></div>
+            <div class="col">
               <img src="./imagenes/nota5.png" width="270px" class="img3" alt="nota1">
             </div>
           </div>
+
       </div>
       <div class="row foto">
 
@@ -323,7 +313,7 @@
       <div class="row justify-content-evenly padding">
       
       <div class="col-md-4 d-flex align-items-center">
-        <img src="./imagenes/ballena2.png" class="img-fluid img6" alt="pajaros">
+        <img src="./imagenes/ballena2.png" class="img-fluid img6" alt="ballena2">
       </div>
     
       <div class="col-md-5">
@@ -332,7 +322,7 @@
         <ul class="list-group list-group-flush bg-transparent">
         <li class="list-group-item bg-transparent"><a class="banda" href="https://www.youtube.com/watch?v=oSx1ErH_yAI&list=PLLHHP0dtlPtdXYHXU8BJ2pWlRJnrP1iRD&index=1"><p class="lista2">1. Encendido</p></a></li>
         <li class="list-group-item bg-transparent"><a class="banda" href="https://www.youtube.com/watch?v=L-I9vP8qjb8&list=PLLHHP0dtlPtdXYHXU8BJ2pWlRJnrP1iRD&index=2"><p class="lista2">2. Fondo marino</p></a></li>
-        <li class="list-group-item bg-transparent"><a class="banda" href="https://www.youtube.com/watch?v=OJ7TLQIdPKA&list=PLLHHP0dtlPtdXYHXU8BJ2pWlRJnrP1iRD&index=3"><p class="lista2">3. Acufeno</p></a></li>
+        <li class="list-group-item bg-transparent"><a class="banda" href="https://www.youtube.com/watch?v=OJ7TLQIdPKA&list=PLLHHP0dtlPtdXYHXU8BJ2pWlRJnrP1iRD&index=3"><p class="lista2">3. Acúfeno</p></a></li>
       
       </ul>
       </div>
@@ -376,61 +366,12 @@
             <textarea type="text" name="message"  class="form-control form4" id="message" placeholder="Mensaje" required></textarea>
           </div>
           <div class="mb-3">
-          <button type="submit" name="submit" id="submit" class="boton">Enviar</button></div>
+            <div class="g-recaptcha" id="captcha" data-callback="onSubmit" data-sitekey="6LdRMKIhAAAAAKI9n-bwltXVLwU-esZ8yTpHqqYh"></div>
+          </div>
+          <div class="mb-3">
+          <button type="submit" name="submit" id="submit" class="boton">Enviar</button>
+          </div>
         </form>
-       
-
-<script type='text/javascript'>
-
-let form = document.getElementById('form'); 
-
-
-form.addEventListener('submit', enviarEmail);
-
-function enviarEmail(e) {
-    e.preventDefault ();
-    conectarFetch();
-   
-   }
-
-  async function conectarFetch() {
-
-
-    const name = document.getElementById('name');
-    const email = document.getElementById('email');
-    const message = document.getElementById('message');
-    
-
-  var url = 'https://ochocuentos.com/mail.php';
-	var params = '?Nombre=' + name.value + '&Email=' + email.value + '&Mensaje=' + message.value
-	url = url + params;
-	
-	const response = await fetch(url, {
-      method: 'GET'
-    });
-
-    if (!response.ok) 
-	{
-    Swal.fire({
-            icon: 'error',
-            title: 'Hubo un error',
-            text: 'Su mensaje no pudo ser enviado.'}),
-		console.log('Se produjo un error en el servidor.'),
-    document.getElementById('form').reset();
-    }
-	else
-	{
-    Swal.fire({
-          icon: 'success',
-          title: 'Mensaje enviado',
-          text: '¡Gracias por contactarnos!'}),
-		console.log('Su correo fue enviado correctamente.'),
-    document.getElementById('form').reset();
-	}
-}
-
-        </script>
-
       </div>
    
  

@@ -43,6 +43,9 @@
   height: 8rem;
 }
 
+.g-recaptcha {
+  width: 20rem;
+}
 
 .lista2:hover {
   color: #10626f;
@@ -76,10 +79,10 @@
 }
 
 .foto {
-  background-image: url(../imagenes/fotoarancha.png);
+  background-image: url(../imagenes/pajaros.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 35rem;
+    height: 30rem;
 }
 
 .rosa4 {
@@ -207,6 +210,11 @@
 
 .padding2 {
   padding: 0.5rem;
+}
+
+.padding3 {
+  padding: 2rem;
+  margin: 1rem;
 }
 
 .smal9c {
@@ -414,6 +422,9 @@ text-transform: uppercase; }
         .form4 {
         margin: 1rem;
         }
+        .g-recaptcha {
+          margin: 1rem;
+        }
   
     }
   
@@ -561,6 +572,10 @@ margin: 1rem;
 
 .form4 {
 margin: 1rem;
+}
+
+.g-recaptcha {
+  margin: 1rem;
 }
 
 .sobre {
